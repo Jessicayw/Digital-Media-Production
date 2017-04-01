@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+  
+<title>SLIDESHOW</title>
+    
+<!-- Here, we load jQuery and the slideshow scripts -->
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="js/bjqs-1.3.min.js"></script>
+      
+<!-- Here is barebones CSS for the slideshow to work. -->
+<link rel="stylesheet" href="slideshow.css">
+
+<!--Here, you'll build out your own stylesheet for the exercise.
+Rename the FILENAME here to be the correct stylesheet for additional styling-->
+<link rel="stylesheet" href="styles.css">
+  
+</head>
+  
+<body>
+  
+<!--navigation-->
+<div style="width:100%;">
+<div class="navigation">
+<ul>
+<li><a href="overview.html">Overview</a></li>
+<li><a href="slideshow.html" class="active">Slideshow</a></li>
+<li><a href= "analysis.html">Analysis</a></li>
+</ul>
+</div>
+</div>
+  
+  
+<!-- Main container for content below the navigation-->
+<div id="container">
+
+<span class="top-title"><h2>Slideshow: Shohoku High School Basketball Team</h2>
+<p>Experience achievements as well as love for the sport.</p>
+</span>
+
+<!-- Below is code for the slideshow. When you will make the other two pages you'll
+want to delete the code marked "cut here" to "cut here">-->
+
+<!-- CUT HERE (beginning of slideshow)-->
+
+<!--  Outer wrapper the slideshow -->
+
+<div id="banner-slide">
+
+<!-- start Basic Jquery Slider - add additional list items to add slides -->
+<ul class="bjqs">
+
+<li><img src="img/sd1-resized.jpg" title="SLAM DUNK-スラムダンク"></li>
+<li><img src="img/sd2-resized.jpg" title="SLAM DUNK-SHOHOKU"></li>
+<li><img src="img/sd3-resized.jpg" title="SHOHOKU-Starting Lineup"></li>
+<li><img src="img/sd4-resized.jpg" title="SHOHOKU-Adversary"></li>
+<li><img src="img/sd5-resized.jpg" title="SHOHOKU-君が好きだと叫びたい"></li>
+
+</ul>
+<!-- end Basic jQuery Slider -->
+
+</div>
+      
+
+<!-- Here (below) we include a script for the slideshow to operate.
+You can edit the height and width of the slideshow, 
+but that will require additional adjustments to other items -->
+
+<script class="secret-source">
+jQuery(document).ready(function($) {
+$('#banner-slide').bjqs({
+animtype      : 'slide',
+height        : 500,
+width         : 620,
+responsive    : true,
+randomstart   : false
+});
+});
+</script>
+
+<!-- CUT HERE (end of slideshow)-->
+ 
+<p>&nbsp;</p>
+
+</div>
+</body>
+</html>

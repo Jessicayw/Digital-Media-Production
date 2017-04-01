@@ -1,0 +1,278 @@
+body{ background-image:url("basketball.jpg");
+       background-size: 1240px 798px;
+    background-repeat: repeat;}
+
+li{font-family: Chaparral Pro Light ,san-serif;}
+
+a {color: black;}
+
+.navigation li {display:inline;}
+
+.navigation {display:block; margin:auto; width:620px; text-align: center;}
+
+.navigation a {
+background-color:#cc6600;
+margin:5px;
+padding:10px;
+border:1px solid black;
+text-decoration:none;}
+
+.navigation a:hover {
+background-color:#991f00;
+text-decoration:underline;
+color:white;}
+
+.navigation a.active {
+background-color:#660000;
+text-decoration:none;
+color:white;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #b3b9bf;
+	background: #f9f9f9;
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #333;
+}
+
+/* Hover */
+
+.navigation a.grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.navigation a.grow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.navigation a.active {
+background-color:#19194d;
+text-decoration:none;
+color:white;
+
+#container {background-color: #fff7e6;
+max-width:625px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+padding-right: 30px;
+padding-bottom: 20px;
+padding-left: 30px;}
+
+.inset {float: right;
+margin-top:20px;
+margin-right: none;
+margin-bottom: 20px;
+margin-left: 20px; }
+
+.inset img {width: 300px;
+height: 300px;
+border:7px double black;
+border-radius: 100%;}
+
+.box {
+background-color:#fff7e6;
+width: 100%;
+display: table;
+margin-bottom: 10px;
+height:150px;
+border-bottom:1px solid black;
+}
+
+.box image-container {
+max-height:200px;
+overflow:hidden;
+}
+
+.box img {width: 200px;
+height: auto;}
+
+
+.left-box {
+width:200px;
+float:left;
+display:table-cell;}
+
+.right-box {
+background-color:#fff7e6;
+width:380px;
+float:left;
+margin-left:10px;
+padding:10px;
+display:table-cell;}
+
+p {font-family:Chaparral Pro Light ,san-serif;
+line-height:18px;
+font-size:.75em;}
+
+.top-title p {font-family:Chaparral Pro Light ,san-serif; font-size:12px;
+font-weight:bold;
+margin:0px 0px 20px 0px;}
+
+.top-title h2 {font-family:Chaparral Pro Light ,san-serif;
+margin:0px;}
+
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #b3b9bf;
+	background: #f9f9f9;
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #333;
+}
+
+/* Header Style */
+.container > header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+	background: rgba(0,0,0,0.01);
+}
+
+.container > header h1 {
+	font-size: 2.625em;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+}
+
+/* To Navigation Style */
+.codrops-top {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	width: 100%;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.codrops-top a {
+	padding: 0 1em;
+	letter-spacing: 0.1em;
+	color: #888;
+	display: inline-block;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.95);
+	color: #333;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+.codrops-icon:before {
+	font-family: 'codropsicons';
+	margin: 0 4px;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+.codrops-icon-archive:before {
+	content: "\e002";
+}
+
+.codrops-icon-next:before {
+	content: "\e000";
+}
+
+.codrops-icon-about:before {
+	content: "\e003";
+}
+
+/* Demo Buttons Style */
+.codrops-demos {
+	padding-top: 1em;
+	font-size: 0.9em;
+}
+
+.codrops-demos a {
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.7em 1.1em;
+	border: 3px solid #b3b9bf;
+	color: #b3b9bf;
+	font-weight: 700;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo,
+.codrops-demos a.current-demo:hover {
+	border-color: #2c3f52;
+	color: #2c3f52;
+}
+
+@media screen and (max-width: 25em) {
+
+	.codrops-icon span {
+		display: none;
+	}
+
+}
